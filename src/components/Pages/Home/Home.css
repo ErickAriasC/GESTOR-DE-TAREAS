@@ -1,11 +1,11 @@
 .home {
-    position: relative; /* Necesario para que el pseudo-elemento se posicione correctamente */
+    position: relative; 
     width: 100%;
     height: auto;
     display: flex;
     flex-direction: column;
     align-items: center;
-    overflow: hidden; /* Asegura que nada se desborde fuera del contenedor */
+    overflow: hidden; 
   }
   
   .home::before {
@@ -15,12 +15,12 @@
     left: 0;
     right: 0;
     bottom: 0;
-    background-image: url('src/Imagen/fondo.jpg'); /* Ruta a tu imagen */
+    background-image: url('public/Imagen/fondo.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    opacity: 0.5; /* Ajusta la opacidad de la imagen de fondo */
-    z-index: -1; /* Asegura que la imagen esté detrás del contenido */
+    opacity: 0.5; 
+    z-index: -1; 
   }
   
 
